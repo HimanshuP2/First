@@ -1,4 +1,4 @@
-FROM	alpine:edge
+FROM i386/debian:jessie
 
 # Enable systemd
 ENV INITSYSTEM on
